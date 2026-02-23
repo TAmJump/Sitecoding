@@ -667,6 +667,26 @@
     border-top: 1px solid var(--gray-100);
   }
 
+  footer .footer-legal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    margin-bottom: 16px;
+  }
+
+  footer .footer-legal a {
+    font-size: 11px;
+    color: var(--gray-400);
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: color .25s;
+  }
+
+  footer .footer-legal a:hover {
+    color: var(--accent);
+  }
+
   footer p {
     font-size: 11px;
     color: var(--gray-400);
@@ -898,7 +918,14 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>&copy; 2026 All Rights Reserved.</p>
+  <div class="footer-legal">
+    <a href="https://tamjump.github.io/TAmj/privacy.html">Privacy Policy</a>
+    <a href="https://tamjump.github.io/TAmj/terms.html">Terms of Service</a>
+    <a href="https://tamjump.github.io/TAmj/commerce.html">特定商取引法</a>
+    <a href="https://tamjump.github.io/TAmj/cookie.html">Cookie Policy</a>
+    <a href="https://tamjump.github.io/TAmj/disclaimer.html">Disclaimer</a>
+  </div>
+  <p>&copy; 2026 TAmJ Inc. All Rights Reserved.</p>
 </footer>
 
 <script>
